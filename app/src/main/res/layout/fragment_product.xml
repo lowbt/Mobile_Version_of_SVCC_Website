@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ProductFragment">
+
+    <include layout="@layout/fragment_product_detail"
+        tools:showIn="@layout/fragment_product_detail"
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:layout_width="match_parent" />
+
+    <include layout="@layout/fragment_selection_list"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"/>
+
+<!--    <fragment-->
+<!--        android:id="@+id/product_detail_fragment"-->
+<!--        android:name="com.systemvertex.mobileversionofsvccwebsite.fragments.ProductDetailFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="2"-->
+<!--        tools:layout="@layout/fragment_product_detail"/>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/selection_list_fragment"-->
+<!--        android:name="com.systemvertex.mobileversionofsvccwebsite.fragments.SelectionListFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        tools:layout="@layout/fragment_selection_list"/>-->
+
+
+</LinearLayout>

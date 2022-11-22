@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="18dp"
+                android:layout_height="4dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="0dp"
+                android:background="#FF5722"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Online Store"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="12dp"
+                android:background="#FF5722"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/online_store_desc"
+            android:padding="16dp"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="10dp"
+            android:background="#FF5722"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="194dp"
+            android:layout_gravity="center_horizontal"
+            android:importantForAccessibility="no"
+            android:src="@drawable/estore_shopee" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/shopee"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/shop_now_shopee"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Shop Now"
+            android:onClick="RetriveShopeeUrlThroughIntent"
+            android:background="#FF5722"
+            android:textColor="#FFFFFF"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="10dp"
+            android:background="#FF5722"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="194dp"
+            android:layout_gravity="center_horizontal"
+            android:importantForAccessibility="no"
+            android:src="@drawable/estore_lazada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/lazada"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/shop_now_eleven_street"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Shop Now"
+            android:onClick="RetriveLazadaUrlThroughIntent"
+            android:background="#FF5722"
+            android:textColor="#FFFFFF"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="10dp"
+            android:background="#FF5722"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="194dp"
+            android:layout_gravity="center_horizontal"
+            android:importantForAccessibility="no"
+            android:src="@drawable/estore_lelong" />
+
+
+        <TextView
+            android:id="@+id/store_item_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/lelong_my"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/shop_now_lelong_my"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Shop Now"
+            android:onClick="RetriveLelongUrlThroughIntent"
+            android:background="#FF5722"
+            android:textColor="#FFFFFF" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="18dp"
+                android:layout_height="4dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="0dp"
+                android:background="#FF5722"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Warranty Policy"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="12dp"
+                android:background="#FF5722"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/warranty_policy_0"
+            android:padding="16dp"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Full Year Warranty Coverage"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/warranty_policy_1"
+            android:padding="16dp"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Warranty Period"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/warranty_policy_2"
+            android:padding="16dp"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. RMA Charges"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/warranty_policy_3"
+            android:padding="16dp"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

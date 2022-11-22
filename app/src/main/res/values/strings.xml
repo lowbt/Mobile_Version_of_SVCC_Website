@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Vertex</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="pan_printer_1">Panasonic Laser AIO KX-MB2030CX</string>
+    <string name="pan_printer_2">Panasonic Laser AIO KX-MB2025CX6</string>
+    <string name="pan_printer_3">Panasonic Laser AIO KX-MB1530MLW</string>
+    <string name="pan_printer_4">Panasonic Laser AIO KX-MB1520MLW</string>
+
+    <string name="pan_projector_1">Panasonic Projector PT-LB280</string>
+    <string name="pan_projector_2">Panasonic Projector PT-LB300</string>
+    <string name="pan_projector_3">Panasonic Projector PT-LB360</string>
+
+    <string name="pan_phone_1">Panasonic KX-TS880ML Single Line Phone</string>
+    <string name="pan_phone_2">Panasonic KX-TS500ML Single Line Phone</string>
+    <string name="pan_phone_3">Panasonic KX-TS580ML Single Line Phone</string>
+    <string name="pan_phone_4">Panasonic KX-TS560ML Single Line Phone</string>
+    <string name="pan_phone_5">Panasonic KX-TS520ML Single Line Phone</string>
+
+    <string name="prod_category"><b>Category:</b> %s</string>
+    <string name="prod_overview"><b>Overview</b>\n========\n\n %s</string>
+    <string name="prod_box_include"><b>What\'s in the box</b>\n===============\n\n %s</string>
+
+
+    <string name="end_message">The End of Product Details</string>
+    <string name="product_selection_message">
+        \n\t\tPlease select a product from the
+            \n\t\t Product List Selection below\n
+    </string>
+
+    <string name="shopee">Shopee Malaysia is a leading online shopping site based in
+        Malaysia that brings you great deals, with platforms existing across Asia
+        including Singapore, Thailand, Indonesia, Vietnam, Philippines, and Taiwan.</string>
+
+    <string name="lelong_my">Lelong.my is the pioneer of online auction, 
+        the best and largest marketplace in Malaysia; a one stop place where 
+        people can buy, bid, learn and sell online!</string>
+
+    <string name="lazada">Lazada Malaysia is a Rocket Internet Venture and
+        an affiliate of Easytaxi, FoodPanda, PricePanda, Wimdu, Lamido and Zalora.
+        Great Prices, Even Better Service!</string>
+
+    <string name="eleven_street">11street is an open marketplace operated by Celcom Planet Sdn. Bhd.
+        – a joint venture between Celcom Axiata Bhd. and SK Planet Ltd.</string>
+    <string name="online_store_desc">Recent years, we had expanded our business network to several Malaysia\'s leading online marketplace and have our products listed online. Visit our online store and start purchase from us now!</string>
+    <string name="warranty_policy_0">Unless otherwise specify, purchase of any product with stated warranty information shall follow below policy :</string>
+    <string name="warranty_policy_1">As long as the product is stated covered by warranty (either local manufacturer warranty or special store warranty), we will cover full year warranty as long as the warranty claim is within the warranty period (shipping charge applies).</string>
+    <string name="warranty_policy_2">Warranty period is based on the receipt date, or the date stated on warranty sticker on the product.</string>
+    <string name="warranty_policy_3">Information unavailable at the moment. Please check back later.</string>
+    <string name="pan_printer_1_overview">6-in-1 Laser AIO : Print | Copy | Color Scan | Fax | Network | Handset 24ppm (A4) High-speed Laser Printing Up to 600×600 dpi Print Resolution 24cpm Copy Speed Color Scan Capability 33.6 kbps Super G3 Fax Handset Unit Supplied 250-sheet Capacity Input Tray Automatic Document Feeder (ADF)</string>
+    <string name="pan_printer_1_box_include">1 × Panasonic Laser AIO KX-MB2030CX 1 × Power Cord</string>
+
+
+</resources>
